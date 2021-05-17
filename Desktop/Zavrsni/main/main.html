@@ -1,0 +1,139 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<title>jsdifflib demo</title>
+
+	<link rel="stylesheet" type="text/css" href="../jsdifflib/diffview.css">
+	<script type="text/javascript" src="../jsdifflib/diffview.js"></script>
+	<script type="text/javascript" src="../jsdifflib/difflib.js"></script>
+
+    <script src="../jsdiff/jsdiff.js"></script>
+
+    <script src="../jsdifflib/jsdifflib.js"></script>
+
+	<link rel="stylesheet" href="style.css">
+
+    <script src="../patience/PatienceDiff.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+
+	
+</head>
+<body>
+	<div class="textInput">
+		<h2>Base Text</h2>
+		<textarea id="baseText">
+// Opening comment
+#include <stdio.h>
+            
+// Frobs foo heartily
+int frobnitz(int foo)
+{
+    int i;
+    for(i = 0; i < 10; i++)
+    {
+        printf("Your answer is: ");
+        printf("%d\n", foo);
+    }
+}
+
+int fact(int n)
+{
+    if(n > 1)
+    {
+        return fact(n-1) * n;
+    }
+    return 1;
+}
+
+int main(int argc, char **argv)
+{
+    frobnitz(fact(10));
+}</textarea>
+	</div>
+	<div class="textInput spacer">
+		<h2>New Text</h2>
+		<textarea id="newText">
+#include <stdio.h>
+
+int fib(int n)
+{
+    if(n > 2)
+    {
+        return fib(n-1) + fib(n-2);
+    }
+    return 1;
+}
+
+// Frobs foo heartily
+int frobnitz(int foo)
+{
+    int i;
+    for(i = 0; i < 10; i++)
+    {
+        printf("%d\n", foo);
+    }
+}
+
+int main(int argc, char **argv)
+{
+    frobnitz(fib(10));
+}
+// Closing comment
+        </textarea>
+	</div>
+
+    <div>
+
+
+    <select name="diffs" id="diffs" onchange="refresh(this)">
+        <option value="jsdiff">JSDIFF</option>
+        <option value="jsdifflib">JSDIFFLIB</option>
+        <option value="patience">Patience Diff</option>
+        <option value="text">Text diff</option>
+      </select>
+
+      <input type="submit" value="Show diff" onclick="submit()">
+
+    </div>
+
+    <div id="jsdiffdiv">
+	
+
+    </div>
+
+    <div id="jsdifflibdiv" style="display:none;">
+
+
+        <div class="viewType">
+            <input type="radio" name="_viewtype" id="sidebyside"  checked="checked"> <label for="sidebyside">Side by Side Diff</label>
+            &nbsp; &nbsp;
+            <input type="radio" name="_viewtype" id="inline" > <label for="inline">Inline Diff</label>
+        </div>
+	
+
+    </div>
+
+    <div id="patiencediv" style="display:none;">
+
+        <div class="viewType">
+            <input type="radio" name="_viewtype2" id="patienceminus"  checked="checked"> <label for="sidebyside">Normal</label>
+            &nbsp; &nbsp;
+            <input type="radio" name="_viewtype2" id="patienceplus" > <label for="inline">Plus</label>
+        </div>
+	
+
+    </div>
+
+    <div id="textdiv"  style="display:none;">
+	
+
+    </div>
+
+
+    <div id="result"> </div>
+
+
+
+</body></html>

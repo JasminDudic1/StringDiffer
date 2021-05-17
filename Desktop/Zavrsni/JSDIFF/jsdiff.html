@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="style.css">
+
+<label><input type="radio" name="diff_type" value="diffChars" checked> Chars</label>
+<label><input type="radio" name="diff_type" value="diffWords"> Words</label>
+<label><input type="radio" name="diff_type" value="diffLines"> Lines</label>
+<label><input type='radio' name='diff_type' value='diffCss'> CSS</label>
+
+<textarea id='baseText'>Foo bar is equal to bar foz.</textarea> <textarea id='newText'>Foo bar is not equal to bar foo.</textarea>
+<div id='result'></div>
+
+
+<button type="button" onclick="check()">Click Me!</button>
+
+<script src="jsdiff.js"></script>
