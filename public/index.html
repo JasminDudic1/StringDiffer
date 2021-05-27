@@ -1,0 +1,185 @@
+<html><head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+	<title>jsdifflib demo</title>
+
+	<link rel="stylesheet" type="text/css" href="diffview.css">
+	<script type="text/javascript" src="diffview.js"></script>
+	<script type="text/javascript" src="difflib.js"></script>
+
+    <script src="jsdiff.js"></script>
+
+    <script src="jsdifflib.js"></script>
+
+
+	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="rating.css">
+
+    <script src="PatienceDiff.js"></script>
+
+    <script type="text/javascript" src="main.js"></script>
+
+    <script src="diff_match_patch.js"></script>
+	
+</head>
+<body onload="startup()">
+
+	<div class="textInput">
+		<h2>Base Text</h2>
+		<textarea id="baseText">
+// Opening comment
+#include <stdio.h>
+            
+// Frobs foo heartily
+int frobnitz(int foo)
+{
+    int i;
+    for(i = 0; i < 10; i++)
+    {
+        printf("Your answer is: ");
+        printf("%d\n", foo);
+    }
+}
+
+int fact(int n)
+{
+    if(n > 1)
+    {
+        return fact(n-1) * n;
+    }
+    return 1;
+}
+
+int main(int argc, char **argv)
+{
+    frobnitz(fact(10));
+}</textarea>
+	</div>
+	<div class="textInput spacer">
+		<h2>New Text</h2>
+		<textarea id="newText">
+#include <stdio.h>
+
+int fib(int n)
+{
+    if(n > 2)
+    {
+        return fib(n-1) + fib(n-2);
+    }
+    return 1;
+}
+
+// Frobs foo heartily
+int frobnitz(int foo)
+{
+    int i;
+    for(i = 0; i < 10; i++)
+    {
+        printf("%d\n", foo);
+    }
+}
+
+int main(int argc, char **argv)
+{
+    frobnitz(fib(10));
+}
+// Closing comment
+        </textarea>
+	</div>
+
+    <div>
+
+        <input type="submit" value="JSDIFF" onclick="refresh('jsdiff')">
+        <input type="submit" value="JSDIFFLIB" onclick="refresh('jsdifflib')">
+        <input type="submit" value="Patience Diff" onclick="refresh('patience')">
+        <input type="submit" value="Text Diff" onclick="refresh('text')">
+
+        <div id=rating class="rate" style="width: 100%; display: flex;">
+            <input type="radio" id="star5" name="rate" value="5" onclick="rated(5)"/>
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" onclick="rated(4)"/>
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" onclick="rated(3)"/>
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" onclick="rated(2)"/>
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" onclick="rated(1)"/>
+            <label for="star1" title="text">1 star</label>
+        </div>
+    
+    
+
+    </div>
+
+
+
+    <div id="jsdiffdiv">
+	
+
+    </div>
+
+    <div id="jsdifflibdiv" style="display:none;">
+
+
+        <div class="viewType">
+            <input type="radio" name="_viewtype" id="sidebyside"  checked="checked" onclick="submit()"> <label for="sidebyside">Side by Side Diff</label>
+            &nbsp; &nbsp;
+            <input type="radio" name="_viewtype" id="inline" onclick="submit()" > <label for="inline">Inline Diff</label>
+        </div>
+	
+
+    </div>
+
+    <div id="patiencediv" style="display:none;">
+
+        <div class="viewType">
+            <input type="radio" name="_viewtype2" id="patienceminus"  checked="checked" onclick="submit()"> <label for="sidebyside">Normal</label>
+            &nbsp; &nbsp;
+            <input type="radio" name="_viewtype2" id="patienceplus" onclick="submit()"> <label for="inline">Plus</label>
+        </div>
+	
+
+    </div>
+
+    <div id="textdiv"  style="display:none; font-size:15px;">
+	
+        <H3>Diff timeout:</H3>
+            <P><INPUT TYPE="text" SIZE=3 MAXLENGTH=5 VALUE="1" ID="timeout"> seconds<BR>
+            If the mapping phase of the diff computation takes longer than this, then the computation
+            is truncated and the best solution to date is returned.  While guaranteed to be correct,
+            it may not be optimal.  A timeout of '0' allows for unlimited computation.</P>
+
+            <H3>Post-diff cleanup:</H3>
+            <DL>
+            <DT><INPUT TYPE="radio" NAME="cleanup" ID="semantic" CHECKED  onclick="submit()">
+            <LABEL FOR="semantic">Semantic Cleanup</LABEL></DT>
+            <DD>Increase human readability by factoring out commonalities which are likely to be
+            coincidental.</DD>
+            <DT><INPUT TYPE="radio" NAME="cleanup" ID="efficiency"  onclick="submit()">
+            <LABEL FOR="efficiency">Efficiency Cleanup</LABEL>,
+            edit cost: <INPUT TYPE="text" SIZE=3 MAXLENGTH=5 VALUE="4" ID="editcost">
+            <DD>Increase computational efficiency by factoring out short commonalities which are
+            not worth the overhead.  The larger the edit cost, the more aggressive the cleanup.</DD>
+            <DT><INPUT TYPE="radio" NAME="cleanup" ID="raw"  onclick="submit()">
+            <LABEL FOR="raw">No Cleanup</LABEL></DT>
+            <DD>Raw output.</DD>
+            </DL>
+
+            <P><INPUT TYPE="button" VALUE="Compute Diff"></P>
+
+            <HR>
+
+
+    </div>
+
+
+    <div id="result"> 
+
+
+     
+    </div>
+
+
+
+
+</body></html>
