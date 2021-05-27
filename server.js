@@ -11,6 +11,6 @@ app.use(cors());
 
 app.use(express.static("public"));
 
-var port = 3000;
+const port = process.env.PORT || 8000;
 
 server.listen(port, () => console.log(`Listening on port ${port}`));
