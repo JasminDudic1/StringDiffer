@@ -22,7 +22,6 @@ app.post('/rate/update', function (req, res) {
 
     const{newRating,oldRating,diff} = req.body;
     if(newRating == null || oldRating == null ||diff == null){
-        console.log(JSON.stringify(req.body));
         res.status(500);
         res.send("Got wrong json");
         return;
@@ -49,7 +48,6 @@ app.post('/rate/add', function (req, res) {
 
     const{rating,diff} = req.body;
     if(rating == null ||diff == null){
-        console.log(JSON.stringify(req.body));
         res.status(500);
         res.send("Got wrong json");
         return;

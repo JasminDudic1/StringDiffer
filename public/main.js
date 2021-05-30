@@ -51,9 +51,6 @@ async function setChart(){
   document.getElementById("chartBtn").style.visibility='visible';
   if(!chartVisible)return;
 
-  console.log("Reseting chart");
-
-
   fetch(url+"/rate/get/"+diffindex)
   .then(response => response.json())
   .then(data =>{
@@ -70,9 +67,8 @@ async function setChart(){
     {x: "Two or More Races", value: 9009073}
 ];*/
   var chartData = [];
-  console.log(data);
   for(let i = 1 ; i<data.length;i++){
-    chartData.push({x:(i+1), value:data[i]});
+    chartData.push({x:(i), value:data[i]});
   }
 
 
@@ -181,8 +177,6 @@ function resetRating(){
 }
 
 function startup(){
-
-  console.log("Reseting all");
   //localStorage.clear();
   resetDivs();
   
