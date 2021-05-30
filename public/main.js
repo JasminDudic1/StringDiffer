@@ -1,5 +1,6 @@
 
-const url = 'http://109.237.47.100:3000';
+//const url = 'http://109.237.47.100:3000';
+const url = 'https://jdudic1stringdiff.herokuapp.com';
 
 let diffindex=1;
 

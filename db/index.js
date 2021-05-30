@@ -19,8 +19,8 @@ const pool = new Pool({
     host: '127.0.0.1',
     database: 'Zavrsni',
     password: '1234',
-    port: 5432,*/
-    
+    port: 5432,
+    */
 });
 
 module.exports = { pool }
