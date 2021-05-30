@@ -81,7 +81,7 @@ app.get('/rate/get/:diff', async function(req,res){
         return;
     }
 
-    returnJson = [];
+    returnJson = [0];
 
     try{
 
@@ -96,11 +96,6 @@ app.get('/rate/get/:diff', async function(req,res){
         returnJson.push(selectRes.rows[0].count);
 
        }
-        /*for(let i = 0; i <selectRes.rowCount;i++){
-
-            returnJson.push(selectRes.rows[i].rating);
-
-        }*/
 
         res.status(200);
         res.send(returnJson);
@@ -108,6 +103,26 @@ app.get('/rate/get/:diff', async function(req,res){
 
     }catch(err){
         res.status(500);
+        res.send({error:err});
+        return;
+    }
+
+
+});
+
+app.get('/reset',async function(req,res){
+
+    try{
+
+        const reset = "delete from rating where 1 = 1";
+
+        const resetRes = await db.pool.query(reset);
+        res.status(200);
+        res.send({success:true});
+
+
+    }catch(err){
+        res.status(300);
         res.send({error:err});
         return;
     }

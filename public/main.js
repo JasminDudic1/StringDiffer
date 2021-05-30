@@ -51,6 +51,8 @@ async function setChart(){
   document.getElementById("chartBtn").style.visibility='visible';
   if(!chartVisible)return;
 
+  console.log("Reseting chart");
+
 
   fetch(url+"/rate/get/"+diffindex)
   .then(response => response.json())
@@ -68,10 +70,9 @@ async function setChart(){
     {x: "Two or More Races", value: 9009073}
 ];*/
   var chartData = [];
-
-  for(let i = 0 ; i<data.length;i++){
-    console.log(data[i]);
-    chartData.push({x:i, value:data[i]});
+  console.log(data);
+  for(let i = 1 ; i<data.length;i++){
+    chartData.push({x:(i+1), value:data[i]});
   }
 
 
@@ -182,7 +183,7 @@ function resetRating(){
 function startup(){
 
   console.log("Reseting all");
- // localStorage.clear();
+  localStorage.clear();
   resetDivs();
   
 }
@@ -206,7 +207,7 @@ async function rated(number){
       'Content-Type': 'application/json'
       // 'Content-Type': 'application/x-www-form-urlencoded',
     },
-    body: JSON.stringify({rating:number+1,diff:diffindex})
+    body: JSON.stringify({rating:number,diff:diffindex})
   }).then(()=>{
 
   const ratingSave = "diff"+diffindex;
