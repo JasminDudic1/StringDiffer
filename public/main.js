@@ -183,7 +183,7 @@ function resetRating(){
 function startup(){
 
   console.log("Reseting all");
-  localStorage.clear();
+  //localStorage.clear();
   resetDivs();
   
 }
