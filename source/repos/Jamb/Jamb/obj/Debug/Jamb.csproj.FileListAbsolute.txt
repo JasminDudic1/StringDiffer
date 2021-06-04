@@ -1,0 +1,10 @@
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\bin\Debug\Jamb.exe.config
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\bin\Debug\Jamb.exe
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\bin\Debug\Jamb.pdb
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.csprojAssemblyReference.cache
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.Form1.resources
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.Properties.Resources.resources
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.csproj.GenerateResource.cache
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.csproj.CoreCompileInputs.cache
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.exe
+C:\Users\BIOS Servis\source\repos\Jamb\Jamb\obj\Debug\Jamb.pdb
