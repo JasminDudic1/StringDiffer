@@ -1,0 +1,105 @@
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BIOS Servis\source\repos\ClientSender\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\who.so\Desktop\ClientSender\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\who.so\Desktop\ClientSender\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\Admin\Desktop\whoso endpoint grupa 5\whoso endpoint grupa 5\whoso-client\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BIOS Servis\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\BIOS Servis\Desktop\client\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Lenovo\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\Lenovo\Desktop\client\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Vildana\Desktop\client\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\Vildana\Desktop\client\ClientSender\obj\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\ClientSender.exe.config
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\ClientSender.exe
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\ClientSender.pdb
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\Newtonsoft.Json.dll
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\websocket-sharp.clone.dll
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\Newtonsoft.Json.xml
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\bin\Debug\websocket-sharp.clone.xml
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.csprojAssemblyReference.cache
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.Form1.resources
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.Properties.Resources.resources
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.csproj.GenerateResource.cache
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.csproj.CoreCompileInputs.cache
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.csproj.CopyComplete
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.exe
+C:\Users\BIOS Servis\Desktop\Projekti\client\ClientSender\obj\Debug\ClientSender.pdb
